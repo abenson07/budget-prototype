@@ -2,6 +2,7 @@
   "name": "budget-flow",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/react-beautiful-dnd": "^13.1.8",
     "date-fns": "^3.6.0",
     "lucide-react": "^0.359.0",
     "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3"
   },
